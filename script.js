@@ -31,12 +31,12 @@ const study = lab.util.fromObject({
           "left": 0,
           "top": 0,
           "angle": 0,
-          "width": 492.09,
-          "height": 36.16,
+          "width": 329.09,
+          "height": 78.11,
           "stroke": null,
           "strokeWidth": 1,
           "fill": "black",
-          "text": "Welcome! Press space to continue",
+          "text": "Si funciona esto la vida\nva a ser mas facil",
           "fontStyle": "normal",
           "fontWeight": "normal",
           "fontSize": 32,
@@ -51,7 +51,7 @@ const study = lab.util.fromObject({
       ],
       "files": {},
       "responses": {
-        "keypress(Space)": ""
+        "click": ""
       },
       "parameters": {},
       "messageHandlers": {},
@@ -62,15 +62,33 @@ const study = lab.util.fromObject({
       "content": [
         {
           "type": "i-text",
-          "left": 0,
-          "top": 0,
+          "left": -125,
+          "top": -75,
           "angle": 0,
-          "width": 393.05,
+          "width": 52.2,
           "height": 36.16,
           "stroke": null,
           "strokeWidth": 1,
           "fill": "black",
-          "text": "Press J for yes and F for no",
+          "text": "Yes",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": 32,
+          "fontFamily": "sans-serif",
+          "lineHeight": 1.16,
+          "textAlign": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": -75,
+          "angle": 0,
+          "width": 40.91,
+          "height": 36.16,
+          "stroke": null,
+          "strokeWidth": 1,
+          "fill": "black",
+          "text": "No",
           "fontStyle": "normal",
           "fontWeight": "normal",
           "fontSize": 32,
@@ -85,7 +103,7 @@ const study = lab.util.fromObject({
       ],
       "files": {},
       "responses": {
-        "keypress(f,j)": ""
+        "click @yes": "yes"
       },
       "parameters": {},
       "messageHandlers": {},
@@ -119,7 +137,7 @@ const study = lab.util.fromObject({
       ],
       "files": {},
       "responses": {
-        "": ""
+        "click": ""
       },
       "parameters": {},
       "messageHandlers": {},
